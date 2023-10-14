@@ -1,0 +1,25 @@
+:root {
+  --beige: hsla(36, 31%, 90%, 1);
+  --black: #000000;
+  --light-blue: #bffeff;
+  --white: #ffffff;
+
+  --gradient: linear-gradient(to right, rgb(198, 255, 221), rgb(251, 215, 134), rgb(247, 121, 125));
+}
+
+div, section {
+  display: flex;
+}
+
+body {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
